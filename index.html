@@ -9,12 +9,37 @@
     <script>
         //Add your JS script
 
-        function add7() {
-            let number = 24;
+        function add7(number) {
+
             console.log(number + 7);
         }
 
-        add7();
+        add7(5);
+
+        function multiply(number1 , number2) {
+
+            console.log(number1 * number2);
+        }
+
+    multiply(4 , 5);
+
+    function capitalize(str) {
+
+        console.log(str.charAt(0).toUpperCase() + str.slice(1));
+    }
+
+
+    capitalize("moon is out tonight");
+
+    function lastLetter(strLast) {
+        
+        let lastChar = strLast.charAt(strLast.length - 1);
+
+        console.log(lastChar);
+    }
+
+    lastLetter("Be yourself, everyone else is taken");
+
     </script>
 </body>
 </html>
